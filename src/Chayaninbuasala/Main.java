@@ -15,8 +15,7 @@ public class Main {
         publisher.subscribe(numberSubscriber);
         publisher.subscribe(symbolSubscriber);
         while (true) {
-            System.out.println("=====================");
-            System.out.print("Enter string: ");
+            System.out.print("ใส่ ข้อความ: ");
             Scanner input = new Scanner(System.in);
             String myString = input.nextLine();
             publisher.publishString(myString);
