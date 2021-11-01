@@ -24,7 +24,7 @@ public class NumberSubscriber extends StringSubscriber {
             FileWriter Writer = new FileWriter("No.txt ♥ ", true);
             Writer.write(item.toString());
             Writer.close();
-            System.out.println("No. subscriber ♥ : " + item);
+            System.out.println(" เป็นหมายเลย No.  ♥ : " + item);
         }
         catch (IOException e) {
             e.printStackTrace();

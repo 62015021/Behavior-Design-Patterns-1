@@ -21,7 +21,7 @@ public class AlphabetSubscriber extends StringSubscriber {
             FileWriter Alwriter = new FileWriter("al.txt", true);
             Alwriter.write(item.toString());
             Alwriter.close();
-            System.out.println("Al subscriber: " + item);
+            System.out.println("เป็นตัวอักษร Alphabet ♥ " + item);
         }
         catch (IOException e) {
             e.printStackTrace();

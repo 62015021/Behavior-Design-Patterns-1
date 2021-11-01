@@ -23,7 +23,7 @@ public class SymbolSubscriber extends StringSubscriber {
             FileWriter symbolWT = new FileWriter("symbol.txt", true);
             symbolWT.write(item.toString());
             symbolWT.close();
-            System.out.println("Symbol subscriber" + item);
+            System.out.println(" เป็นเครื่องหมาย Symbol " + item);
         }
         catch (IOException e) {
             e.printStackTrace();
